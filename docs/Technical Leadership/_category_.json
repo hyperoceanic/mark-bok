@@ -1,6 +1,6 @@
 {
   "label": "Technical Leadership",
-  "position": 1,
+  "sidebar_position": 2,
   "link": {
     "type": "generated-index",
     "description": "The most important stuff."
