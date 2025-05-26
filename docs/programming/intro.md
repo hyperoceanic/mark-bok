@@ -3,7 +3,7 @@ sidebar_position: 1
 id: intro
 ---
 
-# Programminpg Intro
+# Programming Intro
 
 ## What I believe matters
 
