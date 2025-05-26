@@ -71,7 +71,7 @@ const config: Config = {
       title: 'mark.bok',
       logo: {
         alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        src: 'img/undraw_through-the-window_vqvx.svg',
       },
       items: [
         {
@@ -80,29 +80,28 @@ const config: Config = {
           position: 'left',
           label: 'bok',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
+        {to: '/blog', label: 'blog', position: 'left'},
 
       ],
     },
     footer: {
       style: 'dark',
       links: [
-
         {
-          title: 'More',
           items: [
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/hyperoceanic/',
             },
           ],
         },
-      ],
+        ],
+
       copyright: `Copyright © ${new Date().getFullYear()}. Built with Docusaurus.`,
     },
     prism: {
-      theme: prismThemes.github,
-      darkTheme: prismThemes.dracula,
+      theme: prismThemes.nightOwl,
+      darkTheme: prismThemes.oneDark,
     },
   } satisfies Preset.ThemeConfig,
 };
